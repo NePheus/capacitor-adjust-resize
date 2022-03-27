@@ -7,7 +7,7 @@ This plugin attaches an observer for layout changes on the native layer.
 
 Example: When the keyboard opens, this plugin automatically adds bottom padding to the android layout, so the webview ends on top of the soft keyboard.
 
-Why: On using <item name="android:windowTranslucentNavigation">true</item>, the keyboard overlays the webview and does not shrink the webview automatically.
+Why: On using <item name=\"android:windowTranslucentNavigation\">true<\/item>, the keyboard overlays the webview and does not shrink the webview automatically.
 
 Just call the 'register' method on app start to activate the plugin.
 
@@ -30,7 +30,7 @@ npx cap sync android
 
 <docgen-index>
 
-* [`register()`](#register)
+- [`register()`](#register)
 
 </docgen-index>
 
@@ -45,6 +45,6 @@ register() => any
 
 **Returns:** <code>any</code>
 
---------------------
+---
 
 </docgen-api>

@@ -1,6 +1,6 @@
 {
   "name": "capacitor-adjust-resize",
-  "version": "1.0.1",
+  "version": "4.0.0",
   "description": "Auto adjust the native android layout when the keyboard opens. Needed when using translucent status and navigation bars.",
   "main": "dist/plugin.js",
   "module": "dist/esm/index.js",
@@ -36,8 +36,8 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@capacitor/android": "^3.0.0",
-    "@capacitor/core": "^3.0.0",
+    "@capacitor/android": "^4.0.0",
+    "@capacitor/core": "^4.0.0",
     "@capacitor/docgen": "^0.0.10",
     "@ionic/eslint-config": "^0.3.0",
     "@ionic/prettier-config": "^1.0.1",
@@ -51,7 +51,7 @@
     "typescript": "~4.0.3"
   },
   "peerDependencies": {
-    "@capacitor/core": "^3.0.0"
+    "@capacitor/core": "^4.0.0"
   },
   "prettier": "@ionic/prettier-config",
   "swiftlint": "@ionic/swiftlint-config",

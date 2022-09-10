@@ -1,5 +1,5 @@
 [![npm version](https://badge.fury.io/js/capacitor-adjust-resize.svg)](https://badge.fury.io/js/capacitor-adjust-resize)
-[![capacitor support](https://img.shields.io/badge/capacitor%20support-v3-brightgreen?logo=capacitor)](https://capacitorjs.com/)
+[![capacitor support](https://img.shields.io/badge/capacitor%20support-v4-brightgreen?logo=capacitor)](https://capacitorjs.com/)
 
 # capacitor-adjust-resize
 
@@ -30,7 +30,7 @@ npx cap sync android
 
 <docgen-index>
 
-- [`register()`](#register)
+* [`register()`](#register)
 
 </docgen-index>
 
@@ -45,6 +45,6 @@ register() => any
 
 **Returns:** <code>any</code>
 
----
+--------------------
 
 </docgen-api>

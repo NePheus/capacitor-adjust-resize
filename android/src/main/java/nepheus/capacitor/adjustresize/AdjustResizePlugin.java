@@ -7,8 +7,6 @@ import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 
 import com.getcapacitor.Plugin;
-import com.getcapacitor.PluginCall;
-import com.getcapacitor.PluginMethod;
 import com.getcapacitor.annotation.CapacitorPlugin;
 
 @CapacitorPlugin(name = "AdjustResize")
@@ -17,16 +15,13 @@ public class AdjustResizePlugin extends Plugin {
     private View contentView;
     private int additionalSpacing = -1;
 
-    @PluginMethod
-    public void register(PluginCall call) {
+    public void load() {
         //only required on newer android versions. it was working on API level 19 (Build.VERSION_CODES.KITKAT)
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             this.decorView = getActivity().getWindow().getDecorView();
             this.contentView = ((ViewGroup) decorView.findViewById(android.R.id.content)).getChildAt(0);
             decorView.getViewTreeObserver().addOnGlobalLayoutListener(onGlobalLayoutListener);
         }
-
-        call.resolve();
     }
 
     ViewTreeObserver.OnGlobalLayoutListener onGlobalLayoutListener = new ViewTreeObserver.OnGlobalLayoutListener() {

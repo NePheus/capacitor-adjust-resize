@@ -1,3 +1,1 @@
-export interface AdjustResizePlugin {
-  register(): Promise<void>;
-}
+export interface AdjustResizePlugin {}

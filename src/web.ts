@@ -8,8 +8,4 @@ export class AdjustResizeWeb extends WebPlugin implements AdjustResizePlugin {
       platforms: ['web'],
     });
   }
-
-  register(): Promise<void> {
-    throw new Error('Method not implemented.');
-  }
 }

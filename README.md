@@ -9,8 +9,6 @@ Example: When the keyboard opens, this plugin automatically adds bottom padding 
 
 Why: On using <item name=\"android:windowTranslucentNavigation\">true<\/item>, the keyboard overlays the webview and does not shrink the webview automatically.
 
-Just call the 'register' method on app start to activate the plugin.
-
 ## Supported platforms
 
 | Platform | Supported |
@@ -26,25 +24,19 @@ npm i capacitor-adjust-resize
 npx cap sync android
 ```
 
+The plugin is activated on load automatically.
+
 ## API
 
 <docgen-index>
 
-* [`register()`](#register)
+
 
 </docgen-index>
 
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
-### register()
 
-```typescript
-register() => any
-```
-
-**Returns:** <code>any</code>
-
---------------------
 
 </docgen-api>

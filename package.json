@@ -1,6 +1,6 @@
 {
   "name": "capacitor-adjust-resize",
-  "version": "4.0.2",
+  "version": "4.0.4",
   "description": "Auto adjust the native android layout when the keyboard opens. Needed when using translucent status and navigation bars.",
   "main": "dist/plugin.js",
   "module": "dist/esm/index.js",

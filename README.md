@@ -1,5 +1,5 @@
 [![npm version](https://badge.fury.io/js/capacitor-adjust-resize.svg)](https://badge.fury.io/js/capacitor-adjust-resize)
-[![capacitor support](https://img.shields.io/badge/capacitor%20support-v4-brightgreen?logo=capacitor)](https://capacitorjs.com/)
+[![capacitor support](https://img.shields.io/badge/capacitor%20support-v5-brightgreen?logo=capacitor)](https://capacitorjs.com/)
 
 # capacitor-adjust-resize
 
